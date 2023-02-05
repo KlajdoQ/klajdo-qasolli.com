@@ -419,9 +419,9 @@ section {
   }
 
   .image {
-    margin-left:30px;
+    margin-left:10px;
     margin-bottom:20px;
-    width:330px;
+    width:280px;
   }
 }
 
@@ -670,9 +670,9 @@ section {
 
 @media (max-width: 575px) {
   .contact .container {
-    width:400px;
+    width:350px;
   }
   .validate {
-    width:380px;
+    width:350px;
   }
 }
