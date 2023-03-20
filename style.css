@@ -392,7 +392,7 @@ section {
   background: url("./assets/img/me.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
-  width:370px;
+  width:350px;
   border-radius:20px;
 }
 .languages {
@@ -430,10 +430,10 @@ section {
 --------------------------------------------------------------*/
 .experiences {
   list-style-type:none;
-  display:grid;
-  grid-template-columns: 1fr auto;
+  display:flex;
+  column-gap: 40px;
   align-items: center;
-  justify-content: space-around;
+  justify-content:center;
   flex-wrap: wrap;
   margin:20px;
 }
@@ -442,12 +442,12 @@ section {
   align-items:center;
   margin-bottom:40px;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   text-align: center;
   border:1px solid rgb(235, 229, 229);
   padding:20px;
   box-shadow: 0 5px 5px rgba(0,0,0,0.3);
-  width:670px;
+  width:600px;
   height:450px;
   border-radius:5px;
 }
