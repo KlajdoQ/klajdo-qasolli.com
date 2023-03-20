@@ -418,10 +418,10 @@ section {
     margin-left:20px;
   }
 
-  .image {
-    margin-left:10px;
-    margin-bottom:20px;
-    width:280px;
+  .about-me-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -472,8 +472,8 @@ section {
   grid-template-columns: auto;
 }
 .experiences li{
-  width:350px;
-  height:600px;
+  width:320px;
+  height:650px;
   text-align:left;
 }
 }
@@ -670,9 +670,9 @@ section {
 
 @media (max-width: 575px) {
   .contact .container {
-    width:350px;
+    width:300px;
   }
   .validate {
-    width:350px;
+    width:300px;
   }
 }
